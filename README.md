@@ -58,6 +58,122 @@ O programa é dividido nas seguintes classes:
 
 📌 **Total de métodos no projeto:** 26.
 
+**Casos de Teste – Sistema de Gestão de Refeições e Receitas**
+*Validação das principais funcionalidades do sistema.*
+
+---
+
+# **Caso de Teste 1**
+
+### **CT01 – Cadastro de Receita**
+
+**Objetivo:** Verificar se o sistema cadastra uma nova receita corretamente.
+**Entradas:** Nome da receita, ingredientes, tempo de preparo, categoria.
+**Passos:**
+
+1. Acessar o menu “Cadastrar Receita”.
+2. Inserir os dados obrigatórios.
+3. Confirmar o cadastro.
+   **Resultado Esperado:** Receita salva e exibida na lista.
+
+---
+
+# **Caso de Teste 2**
+
+### **CT02 – Edição de Receita**
+
+**Objetivo:** Validar se uma receita existente pode ser editada.
+**Entradas:** Nova descrição, novos ingredientes.
+**Passos:**
+
+1. Selecionar receita existente.
+2. Alterar algum campo.
+3. Salvar alterações.
+   **Resultado Esperado:** Receita atualizada corretamente.
+
+---
+
+# **Caso de Teste 3**
+
+### **CT03 – Exclusão de Receita**
+
+**Objetivo:** Garantir que o sistema exclui uma receita.
+**Passos:**
+
+1. Selecionar receita específica.
+2. Confirmar remoção.
+   **Resultado Esperado:** Receita não aparece mais na lista.
+
+---
+
+# **Caso de Teste 4**
+
+### **CT04 – Listagem de Receitas**
+
+**Objetivo:** Testar se o sistema exibe todas as receitas cadastradas.
+**Passos:**
+
+1. Acessar menu “Listar Receitas”.
+   **Resultado Esperado:** Lista completa e atualizada.
+
+---
+
+# **Caso de Teste 5**
+
+### **CT05 – Planejar Refeição**
+
+**Objetivo:** Validar criação de um plano de refeição usando receitas existentes.
+**Passos:**
+
+1. Acessar “Planejar Refeição”.
+2. Selecionar receitas.
+3. Confirmar o plano.
+   **Resultado Esperado:** Plano criado e exibido.
+
+---
+
+# **Caso de Teste 6**
+
+### **CT06 – Cálculo Nutricional**
+
+**Objetivo:** Testar o cálculo automático dos valores nutricionais.
+**Entradas:** Ingredientes e quantidades.
+**Resultado Esperado:** Exibição correta de calorias, proteínas etc.
+
+---
+
+# **Caso de Teste 7**
+
+### **CT07 – Cálculo de Sustentabilidade**
+
+**Objetivo:** Verificar cálculo de pegada de carbono e impacto sustentável.
+**Entradas:** Ingredientes e métricas ambientais.
+**Resultado Esperado:** Exibição do valor ambiental correspondente.
+
+---
+
+# **Caso de Teste 8**
+
+### **CT08 – Navegação pelo Menu**
+
+**Objetivo:** Garantir que o menu de console funciona corretamente.
+**Passos:**
+
+1. Navegar pelas opções do menu.
+   **Resultado Esperado:** Cada opção redireciona para a funcionalidade correta.
+
+---
+
+# **Caso de Teste 9**
+
+### **CT09 – Validação de Campos Obrigatórios**
+
+**Objetivo:** Certificar que o sistema bloqueia cadastros incompletos.
+**Passos:**
+
+1. Tentar cadastrar receita sem nome.
+   **Resultado Esperado:** Exibição de mensagem de erro.
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
