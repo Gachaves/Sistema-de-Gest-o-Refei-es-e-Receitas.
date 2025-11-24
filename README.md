@@ -190,9 +190,9 @@ O programa é dividido nas seguintes classes:
 ---
 
 ## 🧪 Cálculo de Teste
-<img width="1143" height="600" alt="image" src="https://github.com/user-attachments/assets/8b3ff3a8-4932-47ac-8201-5a02d23f733c" />
+<img width="1600" height="835" alt="image" src="https://github.com/user-attachments/assets/b90d60c4-7fec-406c-9aaf-fb757de06d64" />
 
-<img width="1138" height="604" alt="image" src="https://github.com/user-attachments/assets/0c828439-20ec-4530-a8a8-11c36055d655" />
+<img width="1600" height="566" alt="image" src="https://github.com/user-attachments/assets/69b11305-7e82-4639-ba57-655ad9647eb5" />
 
 <img width="855" height="661" alt="image" src="https://github.com/user-attachments/assets/fc54dc34-4aef-4194-84d7-57a4d3055e07" />
 
